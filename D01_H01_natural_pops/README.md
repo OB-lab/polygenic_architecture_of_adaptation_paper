@@ -2,7 +2,7 @@
 
 - fst.sh 
 
-    alculate fst between homozygous genotype clusters for each putative inversion identified by local PCA. 
+   Calculate fst between homozygous genotype clusters for each putative inversion identified by local PCA. 
 
 - hic.sh 
 
@@ -11,3 +11,7 @@
 - pi_dxy.sh 
 
     Calculte pi and dxy between homozygous genotype clusters for each putative inversion identified by local PCA.
+
+- pi_dxy_pop.sh 
+
+    Calculte pi, dxy and fst between populations for every chromosome.

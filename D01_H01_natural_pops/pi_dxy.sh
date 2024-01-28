@@ -12,7 +12,7 @@ tabix ${DIR}/${2}.vcf.gz
 
 # for each inversion check the genotype, and assign the genotype value as the 'population' for that individual
 POPS="${DIR}/${2}_POPS.txt"
-genotypes="/home/564/km6006/Scripts/avneet_paper/inversion_genotypes.txt"
+genotypes="/.../inversion_genotypes.txt"
 
 while IFS=$'\t' read -r inversion name genotype population; do
     echo "current $inversion has "$genotype" genotype"
