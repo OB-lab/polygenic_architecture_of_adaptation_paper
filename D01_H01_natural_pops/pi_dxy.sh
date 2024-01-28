@@ -3,7 +3,7 @@
 module load bcftools 
 
 DIR="/.../pi_dxy"
-FILE="/.../pa_as_sf5_final.recode_RS.vcf.gz"
+FILE="/.../pa_as_sf5_final.recode.vcf.gz"
 
 # filter to the chromosome
 bcftools filter ${FILE} --regions ${1} --output ${DIR}/${2}.vcf 
